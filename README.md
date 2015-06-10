@@ -7,3 +7,8 @@ Google extension to change some words to its caipira equivalent
 -Enable developer mode if it's not enabled yet (it is a checkbox on the top right corner)<br>
 -Click Load Unpacked Extension<br>
 -DONE<br>
+<br><br>
+Testing:
+<br><br>
+Esse negócio, pra mim, é igual a aquele, a gente pode usar!
+<br>
