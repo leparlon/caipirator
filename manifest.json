@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Ncaipirator",
+	"version": "1.2",
+	"description": "Caipiriza a web",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+
