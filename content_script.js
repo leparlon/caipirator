@@ -43,6 +43,9 @@ function handleText(textNode)
 	v = v.replace(/\bnegócio\b/g, "trem");
 	v = v.replace(/!/g, ", sô!");
 	v = v.replace(/\bigual\b/g, "quiném");
+	v = v.replace(/\bhoje\b/g, "oje");
+	v = v.replace(/\bmaior\b/g, "mais grande");
+	v = v.replace(/\bmenor\b/g, "mais pequeno");
 
 
 	v = v.replace(/\bA gente\b/g, "Agente");
@@ -53,6 +56,9 @@ function handleText(textNode)
 	v = v.replace(/\bNegócio\b/g, "Trem");
 	v = v.replace(/!/g, ", sô!");
 	v = v.replace(/\bIgual\b/g, "Quiném");
+	v = v.replace(/\bHoje\b/g, "Oje");
+	v = v.replace(/\bMaior\b/g, "Mais grande");
+	v = v.replace(/\bMenor\b/g, "Mais pequeno");
 
 	
 	textNode.nodeValue = v;
